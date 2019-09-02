@@ -24,7 +24,8 @@ c_cpp_properties.json
             "codeOptions": [ "-Os",
                              "-finline-hint-functions",
                              "-fno-elide-constructors",
-                             "-O2"
+                             "-O",
+                             " -abigen"
                             ],
             "testOptions": [],
             "defines": [],
